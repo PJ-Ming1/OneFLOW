@@ -129,6 +129,7 @@ void INsCalcRHS()
 	INsUpdateFaceflux();   //Update interface Flux
 
 	INsUpdateRes();
+	;
 }
 
 void INsCalcTimeStep()
